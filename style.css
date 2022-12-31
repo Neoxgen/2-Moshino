@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+h1{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: lighter !important;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    padding: 25px;
+}
+
+h1,.baseline{
+    text-align: center;
+    color:black;
+}
+
+.background, footer{
+    padding: 30px;
+    background-color: #333;
+}
+
+header p,footer p{
+    text-align: center;
+    color: #fff;
+}
+
+.nav-list{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nav-site{
+    margin-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* cards */
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.card{
+    display: block;
+    width: 300px;
+}
+img{
+    width: 100%;  
+}
+.tag{
+    margin: 10px 0px 40px 0px;
+}
+
+/* Pagination */
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin:20px
+}
+.number, .next{
+    margin: 5px;
+}
+.numbers{
+    display: flex;
+    background-color: #999;
+}
+.numbers a{
+    align-self: center;
+    margin: 0 auto 0 auto;
+    color: white;
+}
+.number{
+    width: 30px;
+    height: 30px; 
+}
+.next{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.numbers:hover{
+    background-color: yellow;
+}
+.brand{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: lighter !important;
+    font-size: 50px;
+}
+.name, .nav-site{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px
+}
+.card:hover{
+    color:#999;
+}
+.tag, .baseline{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.tag{
+    font-size: 10px;
+}    
+.baseline{
+    font-size: 15px;
+}
+.copyright, .background{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-site a:hover{
+    color: yellow;
+}
+@media screen and (max-width:715px) {
+    .cards{
+        justify-content: center;
+    }   
+}
